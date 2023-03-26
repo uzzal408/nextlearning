@@ -1,3 +1,4 @@
+import User from '../components/user';
 function users({users}){
     return (
         <>
@@ -5,10 +6,7 @@ function users({users}){
             { users.map((user)=>{
                return(
                <div key={user.id}>
-                    <p>Name: {user.name}</p>
-                    <p>UserName: {user.username}</p>
-                    <p>Email: {user.email}</p>
-                    <br></br>
+                    <User user={user}></User>
                 </div>
                )
             })}
