@@ -17,7 +17,10 @@ export default function Home() {
           Profile
         </Link>
         <Link href={'products'}>
-          Profile
+          Product
+        </Link>
+        <Link href='users'>
+          User List
         </Link>
         <h1>This is the Landing Page</h1>
       </main>
